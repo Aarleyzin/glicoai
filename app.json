@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "GlicoAí",
+    "slug": "glicoai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "scheme": "glicoai",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/icons/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF7EF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/icons/icon.png",
+      "name": "GlicoAí",
+      "shortName": "GlicoAí",
+      "themeColor": "#B80F0A",
+      "backgroundColor": "#FFF7EF"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.glicoai.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#FFF7EF"
+      },
+      "permissions": []
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4c368079-27ce-43ce-9337-2b304e198838"
+      }
+    },
+    "owner": "aarleyzin"
+  }
+}
